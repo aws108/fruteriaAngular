@@ -1,0 +1,14 @@
+<div class="mt-5">
+    <h1>Nuestros productos</h1>
+    <p>Listado de productos</p>
+
+    <ul class="list-group">
+        <li class="list-group-item" *ngFor="let item of genero, index as i">
+            <h5>Nombre: {{item.nombre}}</h5>
+            <h6>Precio: {{item.precio}}</h6>
+            <h6>Procedencia: {{item.procedencia}}</h6>
+            <a [routerLink]="['/genero',i]">Leer más...</a> <!--genero/i-->
+        </li>
+    </ul>
+
+</div>
