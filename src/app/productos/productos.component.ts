@@ -9,8 +9,7 @@ import { TiendaService } from '../tienda.service'; //importamos el servicio de t
 export class ProductosComponent implements OnInit {
 
   //relleno el array de género con el genero que he obtenido de la función obtenerGenero()
-  //genero:any[]=[];
-  genero = [];
+  genero:any[]=[];
 
   
   constructor(private servicio:TiendaService) {  //instancias el servicio

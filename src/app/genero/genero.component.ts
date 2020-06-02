@@ -10,8 +10,7 @@ import { THIS_EXPR } from '@angular/compiler/src/output/output_ast';
 })
 export class GeneroComponent implements OnInit {
 
-  //genero:any[] = []; //Lo llenaremos de //B
-  genero = [];
+  genero:any[] = []; //Lo llenaremos de //B
   
   constructor(
     private ruta:ActivatedRoute,
